@@ -32,6 +32,10 @@
   z-index: 999;
 }
 
+.top-nav {
+  display: none;
+}
+
 .navbar-innercontainer {
   display: flex;
   flex-direction: row-reverse;
@@ -72,6 +76,21 @@
 
 .nav-link {
   list-style: none;
+}
+
+.campaign_container {
+  border: 4px solid var(--primary);
+  padding: 8px 16px;
+  color: var(--primary);
+  cursor: pointer;
+}
+
+.campaign_container span {
+  font-family: 'Lato', serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.5vw;
+  line-height: 17px;
 }
 
 /* HANDBURGER */
@@ -217,6 +236,10 @@
   line-height: 22px;
 }
 
+.more_service_container {
+  display: none;
+}
+
 .order_box {
   margin: 60px 37px 30px 37px;
   background-color: var(--common);
@@ -337,7 +360,7 @@
 }
 
 .company_logo {
-  width: 25%;
+  width: 24%;
   justify-content: space-between;
 }
 
@@ -376,6 +399,42 @@
     background-color: #fff;
     top: 0;
     z-index: 999;
+    padding: 0 !important;
+  }
+
+  .top-nav {
+    display: flex !important;
+    background-color: var(--dark_secondary);
+    width: 100%;
+    justify-content: right;
+    color: var(--light);
+  }
+
+  .top-nav_content {
+    text-decoration: none;
+    width: 600px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .top-nav-links {
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  .toplink {
+    font-family: 'Lato', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    cursor: pointer;
+  }
+
+  .topicon {
+    cursor: pointer;
   }
 
   .navbar-innercontainer {
@@ -394,7 +453,7 @@
   }
 
   .brand {
-    width: 15%;
+    width: 12%;
   }
 
   .nav-items {
@@ -404,7 +463,7 @@
     height: 100%;
     padding: 0;
     margin: 0;
-    gap: 65px;
+    gap: 7%;
     width: 80%;
     position: relative;
     top: 0%;
@@ -495,11 +554,10 @@
   .main_programmer_section {
     background: url("/Assets/backgrounds/bg6.png");
     background-repeat: repeat;
-    padding: 30px 200px 75px 200px;
     color: var(--light);
     width: 100%;
     justify-content: center;
-    align-items: center;
+    align-items: center !important;
     display: flex;
     flex-direction: column;
   }
@@ -510,6 +568,8 @@
     margin-top: 50px;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
+    align-items: center;
   }
 
   .programmer_head {
@@ -552,8 +612,13 @@
     padding: 12px;
     justify-content: center;
     text-align: center;
-    max-width: 170px;
+    max-width: 200px;
     gap: 0;
+    cursor: pointer;
+  }
+
+  .services_card:hover {
+    border: 2px solid var(--light);
   }
 
   .icon {
@@ -571,19 +636,38 @@
   .description {
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 25px;
   }
 
   .order_box {
     margin: 70px 37px 30px 37px;
     background-color: var(--common);
-    display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px 50px 20px 50px;
     width: 50%;
     cursor: pointer;
+    display: none;
+  }
+
+  .more_service_container {
+    display: block;
+    margin: 70px 0 70px 0;
+    cursor: pointer;
+  }
+
+  .more_service_container span {
+    font-family: 'Lato', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+
+  .more_service_container:hover {
+    border-bottom: 1px solid;
   }
 
   .order_box_text {

@@ -249,6 +249,10 @@
     padding: 34px 20px 34px 20px;
     border-top: 3px solid var(--light_background);
     margin-top: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .sample_header {
@@ -284,6 +288,8 @@
     padding: 35px 200px 35px 200px;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
+    align-items: center;
   }
 
   .pass_event_cards {
