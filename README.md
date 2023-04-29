@@ -1,8 +1,11 @@
 <a name="readme-top"></a>
 
 <div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  
+  <br/>
 
-  <h3><b>Leading Eagle Brand</b></h3>
+  <h3><b>Leading Eagle</b></h3>
 
 </div>
 
@@ -12,12 +15,16 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [HTML](#html)
-    - [CSS](#css)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -28,28 +35,60 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Leading Eagles Brand <a name="about-project"></a>
+# 📖 [Leading Eagle Brand] <a name="about-project"></a>
 
-**Leading Eagles Brand** is a company which is into event planning, there service include: Baking, Decoration, Land scaping and the rest of it, The website was build by lifesoft as a Capstone Project in Microverse.
+> This is a page that shows details of a conference page including the about page, details of the speakers, partners and sponsers.
 
-No Loom Video yet
+**[Capstone Conferene Page]** is an inital design project for a Conference page.
 
-## 🛠 Built With <a name="built-with"> HTML,CSS, SASS and Javascript</a>
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+> The tech stack was built with and include:
+
+- HTML
+- CSS
+- Javascript
+
+<details>
+  <summary>Client</summary>
+  
+</details>
+
+<details>
+  <summary>Server</summary>
+  
+</details>
+
+<details>
+<summary>Database</summary>
+
+</details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **Google**
-- **Colleges**
-- **Microverse**
+> Key features of the application.
+
+- **[No linter errors]**
+- **[Correct (GitHub flow)]**
+- **[Proper documented work]**
+- **[Responsive deisign of a Confence page]**
+- **[Displays the Home page for Confernce Page]**
+- **[Displays the About page for Confernce Page]**
+- **[Displays Mobile Menu]**
+- **[Displays Speakers List with more and less button]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-- ## 🚀 Live Demo <a name="live-demo"></a>
-- [Click here for live video Demo](https://peter-dumbari.github.io/Portofolio-Microverse/)
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://peter-dumbari.github.io/Javascript-capstone-project---Leading-Eagle-Brand/)
+- [Live vide Demo](https://www.loom.com/share/a48eef7db72149868ae51b67e01daa35)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -57,11 +96,20 @@ No Loom Video yet
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
-
 ### Prerequisites
 
 In order to run this project you need:
+
+```sh
+ Visual Studio Code
+```
+
+```sh
+Git bash
+```
+
+-->GitHub<br>
+-->Read the materials that was provided by microverse
 
 <!--
 Example command:
@@ -73,30 +121,89 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder:
+-Create a new GitHub repo.<br>
+-Create a new branch according to the GitHub flow rules.<br>
+-Add a .gitignore file.<br>
+-Add node_modules to gitignore file.<br>
+-Set up a linter for HTML and CSS and make sure that any files that are not relevant are ignored by git.<br>
+-Add descriptive README file to your project - please use this template but remember to customize it to your project.<br>
+-Add 3 files (each one in a separate commit):<br>
+-A .html file.<br>
+-A .css file..<br>
+-A .js file..<br>  
+-Clone this repository to your desired folder:
 
-< cd my-folder
-git clone https://github.com/Peter-Dumbari/Javascript-capstone-project---Leading-Eagle-Brand.git
-cd my-project
+<!--
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
+--->
 
 ### Install
 
-Install this project with:
+Install this project with: GitHub
 
-Run
-npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+<!--
+Example command:
+
+```sh
+  cd my-project
+  gem install
+```
+--->
 
 ### Usage
 
-To run the project, execute the following command:
+<!--
+Example command:
+```sh
+```
+--->
+
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  npx hint .
+```
+
+```sh
+  npx stylelint "**/*.{css,scss}"
+```
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+
+### Deployment
+
+This project is deployed at github pages you can find it at: https://github.com/Peter-Dumbari/Javascript-capstone-project---Leading-Eagle-Brand.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👤 Authors <a  name="authors">LIfeSoft</a>
+## 👥 Authors <a name="authors"></a>
 
-- GitHub: [@githubhandle](https://github.com/PeterDumbari)
+👤 **Helina Abebe Alebachew**
+
+- GitHub: [@Peter-Dumbari]https://github.com/PeterDumbari)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,9 +211,8 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Fully Responsive]**
-- [ ] **[Non Traffic]**
-- [ ] **[No Developer Error]**
+- **[More pages will be created and linked to the home page]**
+- **[More Content will be personalized]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,7 +230,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project just drop a comment
+If you like this project kindly give me a star to show your support!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,27 +238,14 @@ If you like this project just drop a comment
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Thank you for effort you invested in this Project.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-- **Who build this site**
-
-  - LifeSoft
-
-- **How long does it toke him build this site**
-
-  - Within Hours
+> I would like to thank Microverse for giving me the chance to test myself during this project!.
+> I would like to give a big thank for [Cindy Shin](./https://www.behance.net/adagio07) who is the designer this conference page which I was inspired to do.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
-📝 License <a name="license"></a>
+## 📝 License <a name="license"></a>
 
 This project is [MIT](https://github.com/Peter-Dumbari/Javascript-capstone-project---Leading-Eagle-Brand/blob/main/LICENSE) licensed.
 
